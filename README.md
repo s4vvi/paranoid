@@ -23,7 +23,9 @@ How it works:
 5. The proxy forwards the request through the chain;
 6. Nodes are queued for regeneration with a base interval.
 
-![](https://m4dd.rocks/blog/paranoid/img/pr-usage.gif)
+<p align="center">
+  <img src="https://m4dd.rocks/blog/paranoid/img/pr-usage.gif">
+</p>
 
 Clone it from github via `git clone https://github.com/m4dr1nch/paranoid.git` & use `cargo build` to build it. The tool is really simple to use, here is the help menue anyway (`paranoid --help`):
 ```text
