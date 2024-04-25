@@ -115,12 +115,8 @@ impl App {
                 &clients
         ));
 
-        //
-        // Setup and run
         // Run the automatic regeneration
-        //
         self.regen(&clients).unwrap();
-        
 
         let proxy_rt_copy = proxy_rt.clone();
         proxy_rt.block_on(tor::proxy::run(
