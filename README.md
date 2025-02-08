@@ -1,10 +1,10 @@
-![](https://m4dd.rocks/blog/paranoid/img/pr-logo.png)
+![](https://s4vvi.com/blog/paranoid/img/pr-logo.png)
 
 <h1 align="center">Paranoid - TOR Based multi-chain proxy</h1>
 
-![](https://m4dd.rocks/blog/paranoid/img/pr-terminal.png)
+![](https://s4vvi.com/blog/paranoid/img/pr-terminal.png)
 
-[Paranoid](https://github.com/m4dr1nch/paranoid) is a TOR based multi-chain proxy, to make deanonymization more difficult. The tool is a more simple implementation of the [DcLabs SPLITTER](https://github.com/renergr1nch/splitter). It is written in **Rust** using the [Arti](https://tpo.pages.torproject.net/core/arti/) project *(Most of the proxy code is ripped from the Arti project & modified)*.
+[Paranoid](https://github.com/s4vvi/paranoid) is a TOR based multi-chain proxy, to make deanonymization more difficult. The tool is a more simple implementation of the [DcLabs SPLITTER](https://github.com/renergr1nch/splitter). It is written in **Rust** using the [Arti](https://tpo.pages.torproject.net/core/arti/) project *(Most of the proxy code is ripped from the Arti project & modified)*.
 
 **DISCLAIMER: THIS IS A WORKING PROTOTYPE**
 
@@ -24,10 +24,10 @@ How it works:
 6. Nodes are queued for regeneration with a base interval.
 
 <p align="center">
-  <img src="https://m4dd.rocks/blog/paranoid/img/pr-usage.gif">
+  <img src="https://s4vvi.com/blog/paranoid/img/pr-usage.gif">
 </p>
 
-Clone it from github via `git clone https://github.com/m4dr1nch/paranoid.git` & use `cargo build` to build it. The tool is really simple to use, here is the help menue anyway (`paranoid --help`):
+Clone it from github via `git clone https://github.com/s4vvi/paranoid.git` & use `cargo build` to build it. The tool is really simple to use, here is the help menue anyway (`paranoid --help`):
 ```text
 Paranoid usage...
 
